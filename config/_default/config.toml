@@ -1,0 +1,22 @@
+theme = "diary"
+DefaultContentLanguage = "zh"
+
+[[menu.main]]
+    url = "/posts"
+    name = "Archive"
+    weight = 1
+
+[taxonomies]
+   category = "categories"
+   tag = "tags"
+
+[[menu.main]]
+    url = "/categories"
+    name = "Categories"
+    weight = 3
+
+[[menu.main]]
+    url = "/tags"
+    name = "Tags"
+    weight = 2
+    
