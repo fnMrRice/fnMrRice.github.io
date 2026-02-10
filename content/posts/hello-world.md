@@ -1,6 +1,5 @@
 +++
 date = '2026-02-10T15:58:32+08:00'
-draft = true
 title = 'Hugo部署记录'
 +++
 
@@ -141,3 +140,14 @@ echo "theme = 'diary'" >> hugo.toml
 hugo new content content/posts/my-first-post.md
 hugo server -D # 编译草稿
 ```
+
+### 3.5 Github Pages部署
+
+1. 进入Github的仓库界面
+2. 选择上方的Actions
+3. 创建一个新的Action
+4. 搜索Hugo并配置
+5. 进入 设置 - Code and automation - Pages - Build and deployment
+6. Source选择Github Actions
+7. Custom domain中输入自己的域名
+8. 完事！接下来当提交文章的时候，hugo就会自己部署了
